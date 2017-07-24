@@ -1,0 +1,48 @@
+.first {
+  background: #2EFE2E; }
+
+.first:hover {
+  background: #F7FE2E; }
+
+.first:active {
+  background: #FF0000; }
+
+.second {
+  background: #8000FF; }
+
+.second:hover {
+  background: #3B170B; }
+
+.second:active {
+  background: #ffd700; }
+
+input:focus {
+  border: 2px solid green; }
+
+.three:nth-child(even) {
+  background: grey; }
+
+p:after {
+  content: "*"; }
+
+p:before {
+  content: "\2602"; }
+
+.four::first-letter {
+  font-size: 2em;
+  color: red;
+  font-family: Georgia; }
+
+.five {
+  margin-left: 19px;
+  width: 30px;
+  height: 20px;
+  background: black; }
+
+.five:before {
+  position: absolute;
+  left: 15px;
+  content: "\25c4";
+  margin-right: 5px; }
+
+/*# sourceMappingURL=style.css.map */
